@@ -3,11 +3,9 @@ import { useDrop } from "react-dnd";
 
 const DropBox = ({
   children,
-  title,
   index,
 }: {
   children: JSX.Element;
-  title: string;
   index: number;
 }) => {
   const [collectedProps, drop] = useDrop(() => ({

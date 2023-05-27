@@ -55,7 +55,7 @@ const Dnd = () => {
       <div>
         {value.map((val, index1) => {
           return (
-            <DropBox key={index1} title={val.title} index={index1}>
+            <DropBox key={index1} index={index1}>
               <>
                 <p>{val.title}</p>
                 {val.contents.map((val, index2) => {
