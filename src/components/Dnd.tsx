@@ -66,7 +66,7 @@ const Dnd = () => {
                       phoneNumber={val.phoneNumber}
                       introduce={val.introduce}
                       index={index2}
-                      beforeindex={index2}
+                      beforeindex={index1}
                       ChangeValue={{ state: value, setState: setValue }}
                     ></Box>
                   );
