@@ -29,8 +29,11 @@ const ChangeValue = (props: IChangeValue) => {
     );
   };
   let copy: IDrop[] = [...props.state];
+  console.log("Before", copy);
   AddValue();
+  console.log("Add ", copy);
   DeleteValue();
+  console.log("Delete ", copy);
   props.setState(copy);
 };
 
